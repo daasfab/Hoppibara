@@ -1,4 +1,4 @@
-# Eclipsed Apocalypse
+# Hoppybara
 
 <div align="center">
   <img src="game_logo.png" alt="Eclipsed Apocalypse Logo" width="300">
