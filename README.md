@@ -1,7 +1,7 @@
 # Hoppybara
 
 <div align="center">
-  <img src="Hoppibara_Logo.png" alt="Game Logo" style="margin-bottom: -10px;">
+  <img src="Hoppibara_LOGO.png" alt="Game Logo" style="margin-bottom: -10px;">
 </div>
 
 ---
