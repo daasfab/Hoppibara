@@ -1,7 +1,7 @@
 # Hoppybara
 
 <div align="center">
-  <img src="game_logo.png" alt="Eclipsed Apocalypse Logo" width="300">
+  <img src="hoppibara_logo.png" alt="Hoppibara Logo" width="300">
 </div>
 
 ---
