@@ -40,6 +40,26 @@ Obstacle 1 - Basket of Fruits:
   <img src="Hoppibara Obstacle 1 - Basket.png" alt="Game Logo" style="width: 100px; margin-bottom: -10px;">
 </div>
 
+Obstacle 2 - Basketball:
+<div align="center">
+  <img src="Hoppibara Obstacle 3 - Basketball.png" alt="Game Logo" style="width: 100px; margin-bottom: -10px;">
+</div>
+
+Obstacle 3 - Toy Car:
+<div align="center">
+  <img src="Hoppibara Obstacle 2 - Toy Car.png" alt="Game Logo" style="width: 100px; margin-bottom: -10px;">
+</div>
+
+Obstacle 4 - Girl Capibara:
+<div align="center">
+  <img src="Hoppibara Obstacle 4 - Girl Capibara.png" alt="Game Logo" style="width: 100px; margin-bottom: -10px;">
+</div>
+
+Obstacle 5 - Chair with a Duck:
+<div align="center">
+  <img src="Hoppibara Obstacle 5 - Chair with Duck.png" alt="Game Logo" style="width: 100px; margin-bottom: -10px;">
+</div>
+
 ---
 
 ## 📸 Gameplay Screenshots (Not Available Yet)
