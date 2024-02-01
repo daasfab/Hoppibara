@@ -36,7 +36,7 @@ _(more features will be added as I develop this game further!)_
 
 ## Obstacle Images (Will be spawned randomly procedurally)
 ```markdown
-![Obstacle 1 - Basket of Fruits](Hoppibara_Obstacle_1_-_Basket.png))
+![Obstacle 1 - Basket of Fruits](Hoppibara Obstacle 1 - Basket.png))
 ![Obstacle 2](obstacle2.png)
 ![Obstacle 3](obstacle3.png)
 
