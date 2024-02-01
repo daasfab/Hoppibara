@@ -37,9 +37,8 @@ _(more features will be added as I develop this game further!)_
 ## 🪨 Obstacles (Will be spawned randomly procedurally)
 Obstacle 1 - Basket of Fruits:
 <div align="center">
-  <img src="Hoppibara Obstacle 1 - Basket.png" alt="Game Logo" style="margin-bottom: -10000px;">
+  <img src="Hoppibara Obstacle 1 - Basket.png" alt="Game Logo" style="width: 100px; margin-bottom: -10px;">
 </div>
-
 
 ---
 
