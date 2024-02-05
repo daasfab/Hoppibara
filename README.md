@@ -64,6 +64,11 @@ Obstacle 5 - Chair with a Duck:
   <img src="Hoppibara Obstacle 5 - Chair with Duck.png" alt="Game Logo" style="width: 100px; margin-bottom: -10px;">
 </div>
 
+Obstacle 6 - Toy Plane:
+<div align="center">
+  <img src="Hoppibara Obstacle 5 - Toy Plane.png" alt="Game Logo" style="width: 100px; margin-bottom: -10px;">
+</div>
+
 ---
 
 ## 📸 Gameplay Screenshots (Not Available Yet)
