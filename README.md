@@ -14,7 +14,11 @@ Enjoy this 2D Infinite - Jumper style game with a lovely Capybara as the playabl
 
 ## 📬 Developer Notes!!! (Updated)
 
-The game is in progress, meaning its not finished yet. So pelase wait for updates as I will be sharing them frequently right up until the game is finished 👍.
+The game is in progress, meaning it's not finished yet. So please wait for updates as I will be sharing them frequently right until the game is finished 👍.
+
+- I am making the jumping mechanic be such that when the space bar (jump button) for a longer duration of time, the capibara will jump higher, and there will be a crouch feature too!
+- The running animation of the capybara's feet will be added later after the more important parts of the game are completed.
+- Hoppibara will be playable on the web, as I am making it supported on the WebGL platform.
 
 ---
 
