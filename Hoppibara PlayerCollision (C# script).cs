@@ -10,6 +10,8 @@ public class PlayerCollision : MonoBehaviour
         {
             Destroy(gameObject);
             //Game Manager Set Game Over
+            GameManager.Instance.GameOver();
+
         }
     }
 }
