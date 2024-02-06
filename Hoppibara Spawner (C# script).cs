@@ -11,7 +11,11 @@ public class Spawner : MonoBehaviour
 
     private void Update()
     {
-        SpawnLoop();
+        if (GameManager.Instance.isPlaying)
+        {
+            SpawnLoop();
+
+        }
     }
 
     private void SpawnLoop()
