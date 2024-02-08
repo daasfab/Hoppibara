@@ -5,9 +5,15 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     [SerializeField] private GameObject[] obstaclePrefabs;
+    [SerializeField] private Transform obstacleParent;
     public float obstacleSpawnTime = 2f;
     private float timeUntilObstacleSpawn;
     public float obstacleSpeed = 1f;
+
+    private void start()
+    {
+        GameManager.Instance.onGameOver.AddListener(ClearObstacles);
+    }
 
     private void Update()
     {
@@ -29,11 +35,20 @@ public class Spawner : MonoBehaviour
         }
     }
 
+
+    private void ClearObstacles()
+    {
+        foreach (Transform child in obstacleParent)
+        {
+            Destroy(child.gameObject);
+        }
+    }
     private void Spawn()
     {
         GameObject obstacleToSpawn = obstaclePrefabs[Random.Range(0, obstaclePrefabs.Length)];
 
         GameObject spawnedObstacle = Instantiate(obstacleToSpawn, transform.position, Quaternion.identity);
+        spawnedObstacle.transform.parent = obstacleParent;
 
         Rigidbody2D obstacleRB = spawnedObstacle.GetComponent<Rigidbody2D>();
         obstacleRB.velocity = Vector2.left * obstacleSpeed;
