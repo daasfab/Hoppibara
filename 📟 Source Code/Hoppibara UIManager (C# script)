@@ -8,7 +8,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI scoreUI;
     [SerializeField] private GameObject startMenuUI;
     [SerializeField] private GameObject gameOverUI;
-
+    [SerializeField] private TextMeshProUGUI gameOverScoreUI;
+    [SerializeField] private TextMeshProUGUI gameOverHighscoreUI;
 
 
     GameManager gm;
@@ -26,8 +27,16 @@ public class UIManager : MonoBehaviour
 
     public void ActivateGameOverUI()
     {
-        gameOverUI.SetActive(false);
+        gameOverUI.SetActive(true);
+        gameOverScoreUI.text = "Score: " + gm.currentScore;
+        gameOverHighscoreUI.text = "Highscore: " + gm.data.highscore;
 
+
+    }
+
+    public void quitGame()
+    {
+        Application.Quit();
     }
 
     private void OnGUI()
