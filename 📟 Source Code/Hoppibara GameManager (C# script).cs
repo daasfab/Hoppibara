@@ -23,8 +23,15 @@ public class GameManager : MonoBehaviour
     public UnityEvent onPlay = new UnityEvent();
     public UnityEvent onGameOver = new UnityEvent();
 
+    public Data data;
 
 
+    private void Start()
+    {
+        //if we have loaded data 
+        //else create new data
+        data = new Data();
+    }
 
     private void Update()
     {
@@ -36,15 +43,20 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
-        onGameOver.Invoke();
         onPlay.Invoke();
         isPlaying = true;
+        currentScore = 0;
+
     }
 
     public void GameOver()
     {
-        currentScore = 0;
+        onGameOver.Invoke();
         isPlaying = false;
+        if (data.highscore < currentScore)
+        {
+            data.highscore = currentScore;
+        }
     }
 
     public string PrettyScore()
