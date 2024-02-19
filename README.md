@@ -6,6 +6,14 @@
 
 ---
 
+## 🎮 GAME 
+
+You can play the most recent iteration / version of the game by following the link below: 
+https://play.unity.com/mg/other/hoppibara-export 
+
+---
+
+
 ## 🔍 Overview
 
 Enjoy this 2D Infinite-Jumper-style game with a lovely Capybara as the playable character!
@@ -76,24 +84,24 @@ Obstacle 6 - Toy Plane:
 
 Main Menu:
 <div align="center">
-  <img src="HoppibaraMAINMENU.png" alt="Game Logo" style="width: 10000px; margin-bottom: -10px;">
+  <img src="🎥 Gameplay Images/HoppibaraMAINMENU.png" alt="Game Logo" style="width: 10000px; margin-bottom: -10px;">
 </div>
 
 Gameplay:
 <div align="center">
-  <img src="HoppibaraGAMEPLAY.png" alt="Game Logo" style="width: 10000px; margin-bottom: -10px;">
+  <img src="🎥 Gameplay Images/HoppibaraGAMEPLAY.png" alt="Game Logo" style="width: 10000px; margin-bottom: -10px;">
 </div>
 
 Game Over Screen:
 <div align="center">
-  <img src="HoppibaraGAMEOVER.png" alt="Game Logo" style="width: 10000px; margin-bottom: -10px;">
+  <img src="🎥 Gameplay Images/HoppibaraGAMEOVER.png" alt="Game Logo" style="width: 10000px; margin-bottom: -10px;">
 </div>
 
 ---
 
 ## 📥 Installation
 
-Hoppibara will be playable by anyone! I am making it playable on the WebGL platform, meaning once the development is finished, you will be able to test it out! 😀
+Hoppibara is playable by anyone! I am making it playable on the WebGL platform. Please find the link to it in the "🎮 GAME " section to play the game! 😀
 
   
 ```bash
