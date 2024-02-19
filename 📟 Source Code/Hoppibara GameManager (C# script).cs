@@ -28,9 +28,16 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        //if we have loaded data 
-        //else create new data
-        data = new Data();
+        string loadedData = SaveSystem.Load("save");
+
+        if (loadedData != null)
+        {
+            data = JsonUtility.FromJson<Data>(loadedData);
+        }
+        else
+        {
+            data = new Data();
+        }
     }
 
     private void Update()
@@ -56,6 +63,8 @@ public class GameManager : MonoBehaviour
         if (data.highscore < currentScore)
         {
             data.highscore = currentScore;
+            string saveString = JsonUtility.ToJson(data);
+            SaveSystem.Save("save", saveString);
         }
     }
 
