@@ -8,7 +8,7 @@
 
 ## 🔍 Overview
 
-Enjoy this 2D Infinite - Jumper style game with a lovely Capybara as the playable character!
+Enjoy this 2D Infinite-Jumper-style game with a lovely Capybara as the playable character!
 
 ---
 
@@ -19,6 +19,9 @@ The game is in progress, meaning it's not finished yet. So please wait for updat
 - I am making the jumping mechanic be such that when the space bar (jump button) for a longer duration of time, the capibara will jump higher, and there will be a crouch feature too!
 - The running animation of the capybara's feet will be added later after the more important parts of the game are completed.
 - Hoppibara will be playable on the web, as I am making it supported on the WebGL platform.
+
+- The game's latest iteration will have the sounds associated with different actions (e.g., jumping, hitting an obstacle, etc.). This will enhance user experience.
+- Options Menu currently does not work as I have not programmed it yet!! Please wait for the next iteration of the game, where it will be added and will be fully functional :)
 
 ---
 
@@ -33,8 +36,6 @@ Baby Capibara was playing with his friends one day, but suddenly he decided to r
 - **Immersive Audio:** Custom audio linked to different actions, as well as the background music will enhance your player experience. 
   
 - **Unique Game-Play Elements:** The obstacles and the Capibara will follow the same theme, having the same art style and logical additions (e.g., other capybaras as obstacles).
-
-_(more features will be added as I develop this game further!)_
 
 ---
 
@@ -73,9 +74,20 @@ Obstacle 6 - Toy Plane:
 
 ## 📸 Gameplay Screenshots (Not Available Yet)
 
-![MAIN MENU Screenshot](screenshots/screenshot2.png)
-![OPTIONS MENU Screenshot](screenshots/screenshot2.png)
-![GAMEPLAY Screenshot](screenshots/screenshot3.png)
+Main Menu:
+<div align="center">
+  <img src="HoppibaraMAINMENU.png" alt="Game Logo" style="width: 10000px; margin-bottom: -10px;">
+</div>
+
+Gameplay:
+<div align="center">
+  <img src="HoppibaraGAMEPLAY.png" alt="Game Logo" style="width: 10000px; margin-bottom: -10px;">
+</div>
+
+Game Over Screen:
+<div align="center">
+  <img src="HoppibaraGAMEOVER.png" alt="Game Logo" style="width: 10000px; margin-bottom: -10px;">
+</div>
 
 ---
 
