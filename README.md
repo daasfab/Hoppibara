@@ -1,4 +1,4 @@
-# Hoppybara
+# Hoppibara
 
 <div align="center">
   <img src="Hoppibara_LOGO.png" alt="Game Logo" style="margin-bottom: -10px;">
